@@ -1,0 +1,1 @@
+<script src="<?= Config\Config::JS_PATH ?>sliders.js"></script>

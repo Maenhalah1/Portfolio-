@@ -1,0 +1,38 @@
+@media(max-width:800px){
+    .contact {
+        background-size: auto;
+    }
+    .contact form .left ,
+    .contact form .right {
+        width: 100%;
+        float: none;
+    } 
+    .contact .succss-form  {
+        width: 95%;
+        font-size: 20px;
+    }
+    .contact form .Error-form {
+        width: 95%;
+        font-size: 20px;
+    }
+}
+@media(max-width:400px) {
+    .contact .succss-form  {
+        width: 95%;
+        font-size: 18px;
+    }
+    .contact form .Error-form {
+        width: 95%;
+        font-size: 18px;
+    }
+}
+@media(max-width:400px) {
+    .contact .succss-form  {
+        width: 95%;
+        font-size: 15px;
+    }
+    .contact form .Error-form {
+        width: 95%;
+        font-size: 15px;
+    }
+}

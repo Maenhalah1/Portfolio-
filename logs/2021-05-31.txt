@@ -1,0 +1,8 @@
+[31-May-2021 11:16:31 Europe/Berlin] Uncaught exception: 'Exception' with message ''
+Stack trace: #0 E:\xampp\htdocs\projects\profolio\public\index.php(32): Core\Router->dispatch('')
+#1 {main}
+Thrown in 'E:\xampp\htdocs\projects\profolio\Core\Router.php' on line 62
+ The Client IP is 127.0.0.1
+
+
+

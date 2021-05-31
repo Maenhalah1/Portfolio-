@@ -1,0 +1,1 @@
+<script src="<?= Config\Config::JS_PATH ?>jquery.vide.js"></script>

@@ -1,0 +1,225 @@
+@media(max-width:1080px) {
+
+    .timeline .timeline-contant .left{
+        width: 40%;
+    }
+    .bullet-effect{
+        font-size: 90px;
+    }
+}
+
+@media(max-width:920px) {
+    /************ Loading Text ************/
+    .intro-text{
+        width: 95%;
+    }
+    .intro-text h1{
+        font-size: 42px;
+    }
+    .intro-text h2{
+        font-size: 20px;
+    }
+    .intro-text h1 .cursor {
+        padding-right: 10px;
+    }
+
+    .about-me .image-about {
+        float: none;
+        width: 100%;
+    }
+    .about-me .info {
+        padding: 50px 0px 20px;
+        text-align: center;
+        float: none;
+        width: 85%;
+        margin: auto;
+    }
+    .about-me .info h2{
+        text-align: center;
+    }
+
+
+    .skills-sections{
+        display: block;
+        flex-wrap: nowrap;
+    }
+
+    .me-skills .skills-sections .linear-skills-box{
+        flex: 0 0 100%;
+        background-color: #fff;
+        padding: 13px 10px 30px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+
+    }
+    .me-skills .skills-sections .linear-skills-box:not(:nth-child(odd)){
+        margin-left: 0%;
+    }
+
+    .timeline .timeline-contant .left{
+        width: 50%;
+    }
+
+    .bullet-effect{
+        font-size: 70px;
+    }
+
+}  
+
+@media(max-width:720px) {
+    .intro-text{
+        width: 95%;
+    }
+    .intro-text h1{
+        font-size: 45px;
+    }
+    .intro-text h2{
+        font-size: 22px;
+    }
+    .intro-text h1 .cursor {
+        padding-right: 10px;
+    }
+
+
+    .feature .feat-box {
+        width: calc(100% / 2);
+    }
+
+    .timeline .timeline-contant .left{
+        width: 60%;
+    }
+    .bullet-effect{
+        font-size: 60px;
+    }
+}
+
+@media(max-width:600px){
+    .me-skills .skills-container{
+        display: block;
+        flex-wrap: nowrap;
+    }
+    .me-skills .linear-skills-box .skill-box{
+        padding: 20px 30px 0 0;
+        width: 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+    }
+    .timeline .timeline-contant .left{
+        width: 60%;
+    }
+    .bullet-effect{
+        font-size: 50px;
+    }
+}
+
+@media(max-width:540px) {
+    .intro-text h1{
+        font-size: 40px;
+    }
+    .intro-text h2{
+        font-size: 17px;
+    }
+    .intro-text h1 .cursor {
+        padding-right: 10px;
+    }
+
+    .feature .feat-box img{
+        width: 90px;
+        height: 60px;
+    }
+    .feature .feat-box h3{
+        font-size: 18px;
+    }
+
+    .timeline .timeline-contant .contant {padding: 20px;}
+    .timeline .timeline-contant .contant h3{ font-size: 22px;}
+    .timeline .timeline-contant .contant span {
+        font-size: 13px;
+    }
+    .timeline .timeline-contant .contant span:first-of-type{
+        font-size: 16px;
+    }
+    .timeline .timeline-contant .left{
+        width: 70%;
+    }
+    .bullet-effect{
+        font-size: 40px;
+    }
+} 
+
+
+@media(max-width:420px) {
+    .intro-text h1{
+        font-size: 40px;
+    }
+    .intro-text h2{
+        font-size: 16px;
+    }
+    .intro-text h1 .cursor {
+        padding-right: 10px;
+    }
+    .intro-text .static-text{
+        display: block;
+        font-size: 32px;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+
+    .about-me .image-about img{
+        width: 70%;
+    }
+
+    .feature .feat-box img{
+        width: 80px;
+        height: 50px;
+    }
+    .feature .feat-box {
+        width: calc(100% );
+    }
+
+    .timeline .timeline-contant .left{
+        width: 80%;
+    }
+    .timeline .timeline-contant .contant h3{ font-size: 18px;}
+    .timeline .timeline-contant .contant span {
+        font-size: 12px;
+    }
+    .timeline .timeline-contant .contant span:first-of-type{
+        font-size: 15px;
+    }  
+    .bullet-effect{
+        font-size: 35px;
+    }
+} 
+
+
+
+@media(max-width:350px) {
+    .intro-text h1{
+        font-size: 35px;
+    }
+    .intro-text h2{
+        font-size: 15px;
+    }
+    .intro-text h1 .cursor {
+        padding-right: 10px;
+    }
+    .intro-text .static-text{
+        display: block;
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+    
+    .feature .feat-box img{
+        width: 60px;
+        height: 40px;
+    }
+    .feature .feat-box {
+        width: calc(100% );
+    }
+
+    .bullet-effect{
+        font-size: 30px;
+    }
+} 

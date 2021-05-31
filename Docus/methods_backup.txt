@@ -1,0 +1,23 @@
+
+# in Model class  
+    private static function convertQueryArrayToObjects($rows){
+        $class = get_called_class();
+        $objs = [];
+        foreach($rows as $row){
+            $obj = new $class;
+            foreach($row as $property => $value) {
+                if(is_string($property)){
+                    if($property === static::$primaryKey){                        
+                        $objReflection = new \ReflectionObject($obj);
+                        $propertyReflection = $objReflection->getProperty($property);
+                    
+                        $propertyReflection->setAccessible(false);
+                    }else{
+                        $obj->$property = $value;
+                    }
+                }
+            }
+            $objs[] = $obj;
+        }
+        return $objs;
+    } 

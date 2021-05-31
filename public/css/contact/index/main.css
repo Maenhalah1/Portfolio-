@@ -1,0 +1,39 @@
+
+/* Start Contact Me */
+.contact{
+    min-height: 600px;
+    background-image: url('../../../media/map2.jpg');
+    background-position: center center;
+    background-size: 1200px 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.contact .overlay{
+    background-color: rgba(255,255,255,.92);
+}
+.contact .container {
+    position: relative;
+    z-index: 2;
+}
+
+.contact form{
+    overflow: hidden;
+    max-width: 950px;
+    margin:auto;
+}
+
+
+
+.contact .succss-form {
+    background-color: #3fff0082;
+    color: #076300;
+    width: 75%;
+    text-align: center;
+    font-size: 23px;
+    margin: 12px auto;
+    border-radius: 7px;
+    padding: 18px;
+    font-weight: 700;
+}

@@ -1,0 +1,82 @@
+
+
+/************ Services Section ***********/
+
+.services-section{
+    background-image: url(../imgs/service.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 800px;
+    position: relative;
+    min-height: 600px;
+    transition: all 1s ease;
+
+}
+.services-section .overlay{
+    background-color: rgba(255, 255, 255, 0.911);
+}
+.services-section .section-content{
+    position: relative;
+    z-index: 2;
+}
+.services-section .content{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 1s ease;
+}
+.services-section .content .service{
+    width: 0%;
+    margin-right: 2%;
+    border: 1px solid #eee;
+    height: 0px;
+    background-image: url("../../../media/code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.services-section.show .content .service{
+    width: 48%;
+    height: 300px;
+    opacity: 1;
+}
+.services-section .content .service .overlay{
+    background-color: #3cff00ec;
+    z-index: 2;
+    border-radius: 10px;
+
+}
+.services-section .content .service .service-content{
+    display: inline-block;
+    width: auto;
+    position: relative;
+    z-index: 3;
+    left: 30%;
+    margin-top: 60px;
+    transform: translateX(-30%);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.services-section .content .service .service-content .icon{
+font-size: 70px;
+margin-bottom: 20px;
+}
+
+.services-section .content .service .service-content h2{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.services-section .content .service .service-content p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/************ end Services Section ***********/

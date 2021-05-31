@@ -1,0 +1,90 @@
+/******  Projects Section ******/
+.projects-section{
+    background-image: url(../../../media/web.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 800px;
+    position: relative;
+    min-height: 600px;
+}
+
+.projects-section .overlay{
+    background-color: rgba(255, 255, 255, 0.911);
+}
+
+.projects-section .content{
+    position: relative;
+}
+
+.projects-section .project{
+    width: 49%;
+    overflow: hidden;
+    height: 260px;
+    box-shadow: 1px 1px 10px #222;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+.projects-section .project:nth-child(odd){
+    margin-right: 2%;
+
+}
+.projects-section .project .image-container{
+    width: 100%;
+    height: 100%;
+    transition: .8s;
+}
+.projects-section .project .image-container img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.projects-section .project .project-info{
+   position: absolute;
+   bottom: -100px;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: #ff9800f0;
+   background-color: rgba(85, 85, 85, 0.7);
+   border-top: 1px solid #666;
+    transition: .8s;
+   color: #fff;
+   padding: 20px 30px 10px;
+   font-size: 14px;
+   text-align: center;
+   opacity: 0;
+}
+.projects-section .project .project-info .content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.projects-section .project .project-info .header{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 0 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.projects-section .project .project-info .button-1{
+    font-size: 14px;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+
+
+.projects-section .project:hover .image-container {
+    transform: perspective(500px) translate3d(0, 0, 30px);
+}
+.projects-section .project:hover .project-info {
+    bottom: 0;
+    opacity: 1;
+}
+
+/******  end Projects Section ******/

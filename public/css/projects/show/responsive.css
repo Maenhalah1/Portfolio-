@@ -1,0 +1,82 @@
+@media(max-width:1080px) {
+
+  
+}
+
+@media(max-width:920px) {
+
+}  
+
+@media(max-width:720px) {
+    
+    .project-details-section .project-description .header{
+        margin-bottom: 30px;
+    }
+    .project-details-section .project-description .content{
+        display: block;
+        text-align: center;
+    }
+    .project-details-section .project-description .content p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .project-details-section .project-description .content iframe{
+        margin: auto;
+        width: 300px;
+        height: 220px;
+    }
+} 
+
+@media(max-width:600px) {
+    .project-details-section .project-header{
+        min-height: 90vh;
+    }
+}  
+
+@media(max-width:540px) {
+    .project-details-section .project-header .header{
+        font-size: 70px;
+    }
+
+    .project-details-section .project-description .header{
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    .project-details-section .project-description .content iframe{
+        margin: auto;
+        width: 250px;
+        height: 170px;
+    }
+}  
+
+@media(max-width:420px) {
+    .project-details-section .project-description .header{
+        margin-bottom: 25px;
+    }
+    .project-details-section .project-header .header{
+        font-size: 65px;
+    }
+    .project-details-section .project-header .links{
+        font-size: 15px;
+    }
+    .project-details-section .project-description .header{
+        font-size: 25px;
+    }
+    .project-details-section .project-description .content iframe{
+        margin: auto;
+        width: 230px;
+        height: 150px;
+    }
+} 
+
+
+
+@media(max-width:350px) {
+    .project-details-section .project-header .header{
+        font-size: 60px;
+    }
+    .project-details-section .project-description .header{
+        font-size: 23px;
+    }
+
+} 
