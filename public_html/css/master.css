@@ -104,7 +104,31 @@ a{
 }
 
 
-
+.page-message{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.page-message.success{
+    background-color: rgba(40, 165, 9, 0.41);
+    border: 1px solid rgba(40, 165, 9, 0.55);
+    color: rgb(18, 90, 0);
+}
+.page-message.warning{
+    background-color: rgba(194, 174, 0, 0.41);
+    border: 1px solid rgba(194, 174, 0, 0.67);
+    color: rgb(116, 99, 3);
+}
+.page-message.danger{
+    background-color: rgba(231, 0, 0, 0.41);
+    border: 1px solid rgba(231, 0, 0, 0.6);
+    color: rgb(131, 0, 0);
+}
 
 
 /********** Buttons ***********/
@@ -586,8 +610,29 @@ color: #3A589E;
     padding: 10px 0;
 }
 
+.error-code-section{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 3px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+}
 
-
+.error-code-section .error-number{
+    margin: 0;
+    padding: 0;
+    font-size: 160px;
+    color: var(--main-color);
+    text-shadow: 0px 10px rgba(0, 0, 0, 0.4);
+}
+.error-code-section .error-message{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 40px;
+    color: #444;
+}
 /* Start Grid System*/
 @media(min-width:250px){    /*For phones */
     .container{

@@ -30,10 +30,15 @@ abstract class Config {
     const MAX_IMAGES_SIZE = 8388608; // 10 MB
     const MAX_VIDEOS_SIZE = 52428800;
 
+    // const DB_HOST = "localhost";
+    // const DB_NAME = "id16938976_maenhalah";
+    // const DB_USER = "id16938976_maen";
+    // const DB_PASSWORD = 'SFnL*1^bjbNVdxf1';
+
     const DB_HOST = "localhost";
     const DB_NAME = "portfolio";
     const DB_USER = "root";
-    const DB_PASSWORD = "";
+    const DB_PASSWORD = '';
 
     /* TODO:: Move it To Method in Service Class */
 

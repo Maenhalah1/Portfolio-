@@ -2,7 +2,7 @@
 
 namespace App\Controllers\Admin;
 
-use APP\Lib\Files;
+use App\Lib\Files;
 use App\Lib\Messenger;
 use App\Lib\Validate;
 use App\Models\Settings as M_Settings;

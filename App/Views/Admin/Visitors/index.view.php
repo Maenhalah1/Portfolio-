@@ -17,6 +17,8 @@
             <th>Browser</th>
             <th>Device Type</th>
             <th>Device Info</th>
+            <th>Control</th>
+
 
         </thead>
         <tbody>
@@ -32,7 +34,7 @@
                 <td><?=$visitor->browser?></td>
                 <td><?=$visitor->device_type?></td>
                 <td><?=$visitor->device_info?></td>
-            
+                <td><a href="/admin/visitors/<?=$visitor->getPrimaryKey()?>/delete">Delete</a></td>
             </tr>
         <?php endforeach; endif;?>
         </tbody>

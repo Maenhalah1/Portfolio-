@@ -1,5 +1,5 @@
 <?php 
-namespace APP\Lib;
+namespace App\Lib;
 
 use Config\Config;
 use Exception;

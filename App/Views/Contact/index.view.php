@@ -1,11 +1,11 @@
 <?php Core\View::LoadFile("Include" . DS . "topnav.main.view.php")?>
 <div class="wrapper">
-    <div class="contact">
+    <div class="contact" style="background-image: url('../media/map2.jpg');">
         <div class="overlay"></div>
         <div class="container">
         <?php if(isset($user_message)):?>
             <?php $message = $user_message[0]; $type = $user_message[1];?>
-            <div class="form-message <?=$type?>"><?=$message?></div>
+            <div class="page-message <?=$type?>"><?=$message?></div>
         <?php endif;?>
             <div class="main-header sub-page-header"><span>Contact Me</span></div>
             <div class="form-1">

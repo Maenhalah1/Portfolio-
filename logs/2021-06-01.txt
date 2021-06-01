@@ -1,0 +1,45 @@
+[01-Jun-2021 07:08:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'id16938976_maen'@'localhost' (using password: YES)'
+Stack trace: #0 E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php(22): App\Lib\Database->connection()
+#1 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(58): App\Lib\Database->__construct('localhost', 'id16938976_maen...', 'id16938976_maen', 'SFnL*1^bjbNVdxf...')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(26): Core\Controller->loadRegistryObjects()
+#3 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(70): Core\Controller->__construct(Array)
+#4 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('')
+#5 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php' on line 30
+ The Client IP is 127.0.0.1
+
+
+
+[01-Jun-2021 08:15:09 Europe/Berlin] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '$this' (T_VARIABLE)'
+Stack trace: #0 [internal function]: App\Autoload::autoloading('App\\Controllers...')
+#1 [internal function]: spl_autoload_call('App\\Controllers...')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(68): class_exists('App\\Controllers...')
+#3 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('')
+#4 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Controllers\Home.php' on line 22
+ The Client IP is 127.0.0.1
+
+
+
+[01-Jun-2021 08:16:00 Europe/Berlin] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '$this' (T_VARIABLE)'
+Stack trace: #0 [internal function]: App\Autoload::autoloading('App\\Controllers...')
+#1 [internal function]: spl_autoload_call('App\\Controllers...')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(68): class_exists('App\\Controllers...')
+#3 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('')
+#4 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Controllers\Home.php' on line 22
+ The Client IP is 127.0.0.1
+
+
+
+[01-Jun-2021 08:16:13 Europe/Berlin] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '$this' (T_VARIABLE)'
+Stack trace: #0 [internal function]: App\Autoload::autoloading('App\\Controllers...')
+#1 [internal function]: spl_autoload_call('App\\Controllers...')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(68): class_exists('App\\Controllers...')
+#3 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('')
+#4 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Controllers\Home.php' on line 22
+ The Client IP is 127.0.0.1
+
+
+

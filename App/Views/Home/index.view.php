@@ -48,7 +48,7 @@
     </div>
 
     <div class="section">
-        <div class="resume text-align-center" id="resume">
+        <div class="resume text-align-center" id="resume" style="background-image: url('../media/resume2.jpg');">
             <div class="overlay"></div>
             <div class="container w80 ">
                 <div class="content">

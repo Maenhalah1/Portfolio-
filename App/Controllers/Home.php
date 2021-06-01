@@ -2,7 +2,7 @@
 namespace App\Controllers;
 
 use App\Lib\ApiCall;
-use APP\Lib\Files;
+use App\Lib\Files;
 use App\Lib\Services ;
 use App\Models\Education;
 use App\Models\Settings;
@@ -14,10 +14,13 @@ use Core\View;
 
 class Home extends Controller{
 
-    public function before(){}
+    public function before(){
+        $this->saveVisitorsInformation();
+    }
     public function after(){}
 
     public function indexAction(){
+        
         $this->_data["settings"] = $settings = Settings::getByPrimaryKey(1);
         if($settings !== false){
             $settings->main_video = pathinfo($settings->main_video);

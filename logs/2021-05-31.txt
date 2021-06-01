@@ -6,3 +6,65 @@ Thrown in 'E:\xampp\htdocs\projects\profolio\Core\Router.php' on line 62
 
 
 
+[31-May-2021 12:06:22 Europe/Berlin] Uncaught exception: 'Exception' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+'
+Stack trace: #0 E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php(22): App\Lib\Database->connection()
+#1 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(58): App\Lib\Database->__construct('localhost', 'portfolio', 'root', '')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(26): Core\Controller->loadRegistryObjects()
+#3 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(70): Core\Controller->__construct(Array)
+#4 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('admin/auth/logi...')
+#5 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php' on line 30
+ The Client IP is 127.0.0.1
+
+
+
+[31-May-2021 12:06:31 Europe/Berlin] Uncaught exception: 'Exception' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+'
+Stack trace: #0 E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php(22): App\Lib\Database->connection()
+#1 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(58): App\Lib\Database->__construct('localhost', 'portfolio', 'root', '')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(26): Core\Controller->loadRegistryObjects()
+#3 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(70): Core\Controller->__construct(Array)
+#4 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('')
+#5 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php' on line 30
+ The Client IP is 127.0.0.1
+
+
+
+[31-May-2021 15:20:39 Europe/Berlin] Uncaught exception: 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'id16938976_maen'@'localhost' (using password: YES)'
+Stack trace: #0 E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php(22): App\Lib\Database->connection()
+#1 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(58): App\Lib\Database->__construct('localhost', 'id16938976_maen...', 'id16938976_maen', 'SFnL*1^bjbNVdxf...')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(26): Core\Controller->loadRegistryObjects()
+#3 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(70): Core\Controller->__construct(Array)
+#4 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('')
+#5 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php' on line 30
+ The Client IP is 127.0.0.1
+
+
+
+[31-May-2021 16:00:52 Europe/Berlin] Uncaught exception: 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'id16938976_maen'@'localhost' (using password: YES)'
+Stack trace: #0 E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php(22): App\Lib\Database->connection()
+#1 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(58): App\Lib\Database->__construct('localhost', 'id16938976_maen...', 'id16938976_maen', 'SFnL*1^bjbNVdxf...')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(26): Core\Controller->loadRegistryObjects()
+#3 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(70): Core\Controller->__construct(Array)
+#4 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('')
+#5 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php' on line 30
+ The Client IP is 127.0.0.1
+
+
+
+[31-May-2021 20:31:03 Europe/Berlin] Uncaught exception: 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'id16938976_maen'@'localhost' (using password: YES)'
+Stack trace: #0 E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php(22): App\Lib\Database->connection()
+#1 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(58): App\Lib\Database->__construct('localhost', 'id16938976_maen...', 'id16938976_maen', 'SFnL*1^bjbNVdxf...')
+#2 E:\xampp\htdocs\projects\Portfolio-\Core\Controller.php(26): Core\Controller->loadRegistryObjects()
+#3 E:\xampp\htdocs\projects\Portfolio-\Core\Router.php(70): Core\Controller->__construct(Array)
+#4 E:\xampp\htdocs\projects\Portfolio-\public_html\index.php(32): Core\Router->dispatch('')
+#5 {main}
+Thrown in 'E:\xampp\htdocs\projects\Portfolio-\App\Lib\Database.php' on line 30
+ The Client IP is 127.0.0.1
+
+
+

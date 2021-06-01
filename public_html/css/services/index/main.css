@@ -3,7 +3,6 @@
 /************ Services Section ***********/
 
 .services-section{
-    background-image: url(../imgs/service.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -30,7 +29,6 @@
     margin-right: 2%;
     border: 1px solid #eee;
     height: 0px;
-    background-image: url("../../../media/code.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;

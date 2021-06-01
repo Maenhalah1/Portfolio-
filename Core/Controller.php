@@ -16,7 +16,7 @@ abstract class Controller{
 
     protected $route_params = []; // Routes Paramters
     protected $_data = [];
-    protected Registry $_registry;
+    protected $_registry ;
 
     // define Route Paramters from any controller in (app/controller) directory
     public function __construct($params){
@@ -28,7 +28,6 @@ abstract class Controller{
 
     public function __call($name, $arguments){
         $method = $name . "Action";
-        $this->saveVisitorsInformation();
         if(method_exists($this, $method)){
             if($this->before() !== false){
                 call_user_func_array([$this,$method],$arguments);
@@ -60,7 +59,7 @@ abstract class Controller{
 
     }
 
-    private function saveVisitorsInformation(){
+    protected function saveVisitorsInformation(){
         if(!Cookies::exists("visited")){
             $visitor = new Visitors();
             $visitor->ip_address = Services::getUserIPAddress();

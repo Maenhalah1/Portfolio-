@@ -15,6 +15,10 @@
     .menu .links{
         transform: translate(-55%,-50%);
     }
+    .page-message{
+        width: 80%;
+        font-size: 22px;
+    }
 }
 
 @media (max-width:720px){
@@ -51,7 +55,11 @@
     } 
     .overlay-image .close-icon {
         font-size: 30px;
-    } 
+    }
+    .page-message{
+        width: 90%;
+        font-size: 20px;
+    }
 }
 
 @media (max-width:540px){
@@ -68,6 +76,8 @@
     .main-header.sub-page-header{
         font-size: 50px;
     }
+
+
 
     /*********** top nav **********/
     .header-area .logo {
@@ -138,9 +148,18 @@
         font-size: 27px;
     } 
 
+    .page-message{
+        width: 95%;
+        font-size: 19px;
+    }
+
 }
 
 @media (max-width:420px){
+    .page-message{
+        width: 98%;
+        font-size: 16px;
+    }
     .mylinks .linkhead {
         font-size: 35px;
     }

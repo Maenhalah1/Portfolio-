@@ -53,6 +53,7 @@ class Contact extends Controller{
         if($message !== false)
             $this->_data["user_message"] = $message;
         unset($message);
+ 
         View::render();
     }
 

@@ -1,7 +1,7 @@
 <?php Core\View::LoadFile("Include" . DS . "topnav.main.view.php")?>
 
 <div class="wrapper">
-    <div class="services-section" id="services">
+    <div class="services-section" id="services" style="background-image: url(../media/service.png);">
         <div class="overlay"></div>
         <div class="section-content">
             <div class="main-header sub-page-header"><span>Services</span></div>

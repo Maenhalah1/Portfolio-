@@ -1,6 +1,6 @@
 <?php Core\View::LoadFile("Include" . DS . "topnav.main.view.php")?>
 <div class="wrapper">
-    <div class="projects-section">
+    <div class="projects-section" style="background-image: url(../media/web.svg);">
         <div class="overlay"></div>
         <div class="content container w80">
             <div class="main-header sub-page-header"><span>Projects</span></div>
